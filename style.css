@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Source+Sans+Pro:wght@400;600&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+:root {
+    --lineColor: #505050;
+}
+
+.header-links a {
+    background: linear-gradient( to bottom, var(--lineColor) 0%, var(--lineColor) 100%);
+    background-repeat: repeat-x;
+    background-size: 4px 4px;
+    text-decoration: none;
+    transition: 0.5s;
+    color: black;
+}
+
+.header-links a:hover {
+    background-size: 4px 50px;
+    color: #ffffff;
+}
+
+header {
+    background-color: #ffffff;
+}
+
+.header-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-links a {
+    padding: 15px;
+}
+
+.welcome {
+    background-image: url(./images/welcome.png);
+    background-size: 100%;
+    color: #ffffff;
+    background-repeat: no-repeat;
+}
+
+.welcome-inner {
+    text-align: end;
+    padding: 350px 0;
+}
+
+.welcome-inner h5 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.5px;
+}
+
+.welcome-inner h1 {
+    font-weight: 900px;
+    font-size: 48px;
+    line-height: 64px;
+}
+
+.configuration {
+    font-size: 17px;
+    color: black;
+    background: #ffffff;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 22px;
+    transition: 0.5s;
+}
+
+.configuration:hover {
+    color: #ffffff;
+    background: black;
+}
+
+.components {
+    background: linear-gradient(to bottom, black 50%, white 50%);
+}
+
+.components-inner {
+    padding: 100px 0;
+}
+
+.components-inner1 {
+    padding-bottom: 100px;
+}
+
+.components-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.components-title h1 {
+    font-size: 36px;
+    color: white;
+}
+
+.components-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.components-item img {
+    max-width: 350px;
+}
+
+.components-item h2 {
+    font-size: 18px;
+    text-align: center;
+}
+
+.footer {
+    margin-top: 100px;
+    background-color: #e0e0e0;
+}
+
+.footer-content {
+    padding: 70px 0;
+}
+
+.footer-title {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+
+.footer-item {
+    padding: 9px 0;
+}
+
+.footer-item a {
+    color: #999999;
+}
+
+.footer-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer-l {
+    padding: 30px 0;
+    text-align: center;
+    border-top: 1px solid #999999;
+}
